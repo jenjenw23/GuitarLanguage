@@ -27,7 +27,7 @@ $('document').ready(function() {
 
     //this function connects to the bitcoin weighted average api and
     //prints it to the $bit div
-    var sevenDayWeightedAvg = function() {
+    function sevenDayWeightedAvg() {
         var queryURL = "http://api.bitcoincharts.com/v1/weighted_prices.json";
         $.ajax({
             url: queryURL,
@@ -46,13 +46,11 @@ $('document').ready(function() {
 
         });
     }
-    // sevenDayWeightedAvg;
-    // console.log(sevenDayWeightedAvg);
+    sevenDayWeightedAvg();
 
-    // use the setInterval method to call sevenDayWeightedAvg every 1 min
-    setInterval(sevenDayWeightedAvg, interval);
     //set interval for ajax repeated call
     var interval = 60000;
-
+        // use the setInterval method to call sevenDayWeightedAvg every 1 min
+    setInterval(sevenDayWeightedAvg, interval);
 
 });
