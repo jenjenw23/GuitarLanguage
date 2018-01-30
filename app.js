@@ -10,12 +10,21 @@ $('document').ready(function() {
     });
 
     var loginBtn = $('#authLogin');
+    var triviaBtn = $('#trivia');
 
     loginBtn.click(function(e) {
         e.preventDefault();
         webAuth.authorize();
     });
-
+    // was going to try and use jquery to redirect to triviaGame
+    // however I think the file would have to be included in the Guitarlanguage folder
+    // -----------------------------------------------------------------
+    // triviaBtn.on("click", function(e){
+    //     e.preventDefault();
+    //     var url = window.location.href;
+    //     var page = $(this).data('https://guitarlanguage.github.io/triviaGame/');
+    //     window.location = url + page;
+    // });
     // cors work around for use in browsers like chrome
     jQuery.ajaxPrefilter(function(options) {
         if (options.crossDomain && jQuery.support.cors) {
