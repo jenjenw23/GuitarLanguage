@@ -1,3 +1,41 @@
+/* butter
+#fedc3d
+
+#ffdb5e
+black
+#000000
+
+azure
+#01abaa
+
+Peach
+#fea680 */
+/* ------------------------------------------------------- */
+
+/* papaya
+#E24E42;
+
+Mustard
+#E9B000;
+
+Blush
+#EB6E80
+
+Aqua
+#008F95
+
+Green
+#006148 */
+
+/* -------------------------------------------------- */
+/*
+#558C89; darker blue/green
+#74AFAD; blue/green  
+#D9853B; orange
+#ECECEA; whiter
+#e9e9e7; whitish
+
+ */
 
 body {
      background-color: #74AFAD;
@@ -13,10 +51,6 @@ blockquote {
     /* margin-left: 6em; */
     margin-top: 1em;
     font-family: 'Joti One', cursive;
-}
-
-#sidebar {
-	padding: 0 0 0 35px;
 }
 
 #brand {
@@ -45,7 +79,6 @@ a.nav {
 .container h3 {
     color: #006148;
 }
-
 
 
 footer {
