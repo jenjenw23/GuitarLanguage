@@ -1,54 +1,65 @@
-
 body {
-     background-color: #74AFAD;
+	/*background-color: #74AFAD;*/
+	background-color: #000;
+	font-family: 'Roboto';
 }
-
 .jumbotron {
-    background-color:  #D9853B;
-    text-align: center;
+	background-color: #54B3D2;
+	text-align: center;
 	margin-bottom: 0px;
+	font-family: 'Permanent Marker', cursive;
+	padding: 40px 0 40px 0;
 }
-
 blockquote {
-    /* margin-left: 6em; */
-    margin-top: 1em;
-    font-family: 'Joti One', cursive;
+	/* margin-left: 6em; */
+	/*margin-top: 1em;*/
+	/*font-family: 'Joti One', cursive;*/
+	font-style:italic;
+	font-family: 'Roboto';
 }
-
+h5{
+	font-size:24px;
+	font-weight:100;
+}
 #sidebar {
 	padding: 0 0 0 35px;
 }
-
 #brand {
-     font-family: 'Joti One', cursive;
-     font-weight: bold;
-
+	/* font-family: 'Joti One', cursive;*/
+	font-weight: bold;
+	font-size: 65px;
 }
-
 #authLogin {
-    background-color: #D9853B;
-    margin: 5px;
-    margin-left: 0px;
+	background-color: #54B3D2;
+	margin: 5px;
+	margin-left: 0px;
 }
-
 #trivia {
-    background-color: #e9e9e7;
-    margin: 5px;
-    margin-left: 0px;
+	background-color: #54B3D2;
+	margin: 5px;
+	margin-left: 0px;
 }
-
-
+.testimonial {
+	margin: 10px 0 25px 0;
+	font-size: 14px;
+	line-height: 16px;
+}
 a.nav {
-    color: #00aca9;
+	color: #00aca9;
 }
-
 .container h3 {
-    color: #006148;
+	/*color: #006148;*/
+	color: #FFF;
 }
-
-
-
 footer {
-    background-color: #D9853B;
-
+	background-color: #54B3D2;
+}
+.gm-style .gm-style-iw {
+	color: #000;
+}
+body > .container {
+	padding: 15px 15px 0;
+}
+.text-muted {
+    color: #000 !important;
 }
